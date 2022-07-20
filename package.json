@@ -1,0 +1,35 @@
+{
+  "name": "travel-app",
+  "version": "1.0.0",
+  "description": "Travel application",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test",
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShrawanLakhe/travel-app.git"
+  },
+  "keywords": [
+    "Travel"
+  ],
+  "author": "Shrawan Lakhe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ShrawanLakhe/travel-app/issues"
+  },
+  "homepage": "https://github.com/ShrawanLakhe/travel-app#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.19",
+    "uuid": "^8.3.2",
+    "winston": "^3.8.1"
+  },
+  "devDependencies": {
+    "jest": "^28.1.2"
+  }
+}
